@@ -1,5 +1,5 @@
  body {
-     background-image: url('../img/Fundo.png');
+     background-image: url('../img/fundo.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -11,4 +11,14 @@
      color: white;
      padding: 40px;
      border-radius: 15px;
+ }
+
+ @font-face {
+    font-family: 'chewy_bubble';
+     src: url(../fontes/chewy_bubble.otf);
+ }
+
+ * {
+     text-transform: uppercase !important;
+     font-family: 'chewy_bubble';
  }
