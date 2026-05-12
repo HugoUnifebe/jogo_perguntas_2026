@@ -45,25 +45,25 @@ h1.colorido {
 
 .colorido span:nth-child(5n + 1) {
     transform: rotate(-5deg);
-    color: #ff4d4d;
+    color: #C60612;
 }
 
 .colorido span:nth-child(5n + 2) {
     transform: rotate(3deg);
-    color: #4da6ff;
+    color: #0C8B3A;
 }
 
 .colorido span:nth-child(5n + 3) {
-    color: #4dff88;
+    color: #09AED2;
     transform: rotate(-6deg);
 }
 
 .colorido span:nth-child(5n + 4) {
-    color: #ffd24d;
+    color: #F6D704;
     transform: rotate(12deg);
 }
 
 .colorido span:nth-child(5n + 5) {
-    color: #d24dff;
+    color: #F06100;
     transform: rotate(8deg);
 }
