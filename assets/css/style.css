@@ -1,24 +1,69 @@
- body {
-     background-image: url('../img/fundo.png');
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-     height: 100vh;
- }
+body {
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 
- .conteudo {
-     background: rgba(0, 0, 0, 0.5);
-     color: white;
-     padding: 40px;
-     border-radius: 15px;
- }
+.conteudo {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+}
 
- @font-face {
+@font-face {
     font-family: 'chewy_bubble';
-     src: url(../fontes/chewy_bubble.otf);
- }
+    src: url(../fontes/chewy_bubble.otf);
+}
 
- * {
-     text-transform: uppercase !important;
-     font-family: 'chewy_bubble';
- }
+* {
+    text-transform: uppercase !important;
+}
+
+.colorido {
+    font-family: 'chewy_bubble', serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: -3px -3px 0 white, 0 -3px 0 white, 3px -3px 0 white, 3px 0 0 white, 3px 3px 0 white, 0 3px 0 white, -3px 3px 0 white, -3px 0 0 white;
+}
+
+.colorido span {
+    display: inline-block;
+}
+
+h4.colorido {
+    font-size: 50px !important;
+    letter-spacing: -5px;
+}
+
+h1.colorido {
+    font-size: 65px !important;
+    letter-spacing: -6px;
+}
+
+.colorido span:nth-child(5n + 1) {
+    transform: rotate(-5deg);
+    color: #ff4d4d;
+}
+
+.colorido span:nth-child(5n + 2) {
+    transform: rotate(3deg);
+    color: #4da6ff;
+}
+
+.colorido span:nth-child(5n + 3) {
+    color: #4dff88;
+    transform: rotate(-6deg);
+}
+
+.colorido span:nth-child(5n + 4) {
+    color: #ffd24d;
+    transform: rotate(12deg);
+}
+
+.colorido span:nth-child(5n + 5) {
+    color: #d24dff;
+    transform: rotate(8deg);
+}
