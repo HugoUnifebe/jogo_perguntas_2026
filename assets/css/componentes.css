@@ -8,7 +8,7 @@
     background-size: contain;
 }
 
-.botao-iniciar:hover {
+.botao-iniciar.clicado {
     background-image: url("../img/botao_principal_2.png");
 }
 
@@ -24,4 +24,19 @@
         height: 500px;
         width: 500px;
     }
+}
+
+
+.parte {
+    position: relative;
+}
+
+/*
+    parte 2
+ */
+.parte-2 .marrecos {
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+
 }
