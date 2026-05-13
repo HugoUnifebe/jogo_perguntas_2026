@@ -5,8 +5,12 @@ btn.on(`click`, e => {
 });
 btn.on("mousedown", function () {
     btn.addClass(`clicado`);
+    playSound('click.mp3', .5);
 });
 
 btn.on("mouseup mouseleave", function () {
     btn.removeClass(`clicado`);
+});
+btn.get(0).addEventListener('mouseover', () => {
+    playSound('hover.mp3', .05);
 });
