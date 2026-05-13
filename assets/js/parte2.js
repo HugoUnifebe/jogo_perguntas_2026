@@ -1,7 +1,7 @@
 /** PARTE 1**/
 let btn = $(`.parte-2 .botao-submeter`);
 btn.on(`click`, e => {
-    trocaParte(2);
+    trocaParte(3);
 });
 btn.on("mousedown", function () {
     btn.addClass(`clicado`);
