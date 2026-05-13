@@ -8,6 +8,10 @@
     background-size: contain;
 }
 
+.botao-iniciar:hover {
+    transform: scale(1.1);
+}
+
 .botao-iniciar.clicado {
     background-image: url("../img/botao_principal_2.png");
 }
