@@ -1,4 +1,4 @@
-.botao-1 {
+.botao-iniciar {
     display: flex;
     height: 280px;
     width: 280px;
@@ -8,19 +8,19 @@
     background-size: contain;
 }
 
-.botao-1:hover {
+.botao-iniciar:hover {
     background-image: url("../img/botao_principal_2.png");
 }
 
 @media (min-width: 768px) {
-    .botao-1 {
+    .botao-iniciar {
         height: 350px;
         width: 350px;
     }
 }
 
 @media (min-width: 1200px) {
-    .botao-1 {
+    .botao-iniciar {
         height: 500px;
         width: 500px;
     }

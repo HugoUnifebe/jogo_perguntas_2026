@@ -52,27 +52,27 @@ h1.colorido {
 
 @media (min-width: 768px) {
     h4.colorido {
-        font-size: 75px;
-        line-height:60px;
-        letter-spacing: -7px;
+        font-size: 90px;
+        line-height:70px;
+        letter-spacing: -9px;
     }
     h1.colorido {
-        font-size: 100px;
-        line-height:75px;
+        font-size: 120px;
+        line-height:80px;
         letter-spacing: -9px;
     }
 }
 
 @media (min-width: 1200px) {
     h4.colorido {
-        font-size: 110px;
-        line-height:80px;
-        letter-spacing: -12px;
+        font-size: 130px;
+        line-height:100px;
+        letter-spacing: -14px;
     }
     h1.colorido {
-        line-height: 100px;
-        font-size: 140px;
-        letter-spacing: -18px;
+        font-size: 190px;
+        line-height: 135px;
+        letter-spacing: -21px;
     }
 }
 
