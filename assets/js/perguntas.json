@@ -204,7 +204,7 @@
     "alternativas": [
       {
         "texto": "Festa da cebola",
-        "imagem": "assets/img/perguntas/10/2.png",
+        "imagem": "assets/img/perguntas/10/3.png",
         "dub": "assets/sound/perguntas/10/cebola.mp3"
       },
       {
@@ -214,7 +214,7 @@
       },
       {
         "texto": "Marejada",
-        "imagem": "assets/img/perguntas/10/3.png",
+        "imagem": "assets/img/perguntas/10/2.png",
         "dub": "assets/sound/perguntas/10/marejada.mp3"
       }
     ]
