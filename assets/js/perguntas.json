@@ -1,0 +1,46 @@
+[
+  {
+    "pergunta": "Qual o prato típico de Brusque?",
+    "dub": "assets/sound/perguntas/1/1.mp3",
+    "correta" : "Cachorro-quente",
+    "alternativas": [
+      {
+        "texto": "Cachorro-quente",
+        "imagem": "assets/img/perguntas/1/3.png",
+        "dub": "assets/sound/perguntas/1/cachorro.mp3"
+      },
+      {
+        "texto": "Pão de queijo",
+        "imagem": "assets/img/perguntas/2/2.png",
+        "dub": "assets/sound/perguntas/2/pao.mp3"
+      },
+      {
+        "texto": "Marreco",
+        "imagem": "assets/img/perguntas/1/1.png",
+        "dub": "assets/sound/perguntas/1/marreco.mp3"
+      }
+    ]
+  },
+  {
+    "pergunta": "Qual o prato típico de Brusque?",
+    "dub": "assets/sound/perguntas/1/1.mp3",
+    "correta" : "Cachorro-quente",
+    "alternativas": [
+      {
+        "texto": "Cachorro-quente",
+        "imagem": "assets/img/perguntas/1/3.png",
+        "dub": "assets/sound/perguntas/1/cachorro.mp3"
+      },
+      {
+        "texto": "Pão de queijo",
+        "imagem": "assets/img/perguntas/2/2.png",
+        "dub": "assets/sound/perguntas/2/pao.mp3"
+      },
+      {
+        "texto": "Marreco",
+        "imagem": "assets/img/perguntas/1/1.png",
+        "dub": "assets/sound/perguntas/1/marreco.mp3"
+      }
+    ]
+  }
+]
