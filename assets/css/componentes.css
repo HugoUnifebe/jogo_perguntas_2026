@@ -16,10 +16,20 @@
     background-image: url("../img/botao_principal_2.png");
 }
 
+.app {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
 @media (min-width: 768px) {
     .botao-iniciar {
         height: 350px;
         width: 350px;
+    }
+
+    .app {
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
 }
 
@@ -27,6 +37,11 @@
     .botao-iniciar {
         height: 500px;
         width: 500px;
+    }
+
+    .app {
+        margin-right: 3rem;
+        margin-left: 3rem;
     }
 }
 
@@ -101,6 +116,43 @@
 }
 
 .parte-3 .alternativas .card {
-    height: 400px;
-    width: 400px;
+
+}
+
+.parte-3 h4.colorido {
+    font-size: 4vw !important;
+    line-height: 3vw;
+    letter-spacing: -0.45vw;
+    text-shadow: -1px -1px 0 white, 0 -1px 0 white, 1px -1px 0 white, 1px 0 0 white, 1px 1px 0 white, 0 1px 0 white, -1px 1px 0 white, -1px 0 0 white;
+}
+
+.parte-3 .card-alternativa .card-text {
+    font-size: 1.7rem;
+}
+
+
+@media (max-width: 1880px) {
+    .card-alternativa {
+        width: calc(35% - 1rem)
+    }
+}
+
+@media (max-width: 1400px) {
+    .card-alternativa {
+        width: calc(43% - 1rem)
+    }
+}
+
+@media (max-width: 600px) {
+    .parte-3 h4.colorido {
+        font-size: 20px !important;
+        line-height: 18px;
+        letter-spacing: -1.7px;
+        text-shadow: -1px -1px 0 white, 0 -1px 0 white, 1px -1px 0 white, 1px 0 0 white, 1px 1px 0 white, 0 1px 0 white, -1px 1px 0 white, -1px 0 0 white;
+    }
+
+
+    .card-alternativa {
+        width: calc(50% - 1rem)
+    }
 }
