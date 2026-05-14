@@ -16,14 +16,14 @@
 <body>
 
 <!-- Conteúdo -->
-<div class="container py-5 h-100">
-    <div class="row h-100">
+<div class="py-5 h-100 mx-5">
+    <div class="row h-100 position-relative">
 
         <!-- PARTE 1 -->
         <div class="col-12 parte parte-1">
             <div class="bg-transparent d-flex align-items-center justify-content-center h-100 flex-column">
                 <div class="header">
-                    <h4 class="colorido">
+                    <h4 class="colorido text-nowrap">
                         <span>J</span>
                         <span>O</span>
                         <span>G</span>
@@ -53,10 +53,48 @@
 
         <!-- PARTE 2 -->
         <div class="col-12 parte parte-2" style="display: none;">
-            <img class="marrecos" src="assets/img/casal_de_marrecos.png" alt="casal de marrecos">
             <div class="row h-100">
-                <div class="col-12 h-100">
-
+                <div class="col-12 col-sm-6 col-xxl-5 d-none d-md-block h-100">
+                    <img class="marrecos" src="assets/img/casal_de_marrecos.png" alt="casal de marrecos">
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 col-xxl-7 d-flex flex-column h-100">
+                    <div class="mb-4">
+                        <h1 class="colorido text-nowrap">
+                            <span>V</span>
+                            <span>A</span>
+                            <span>M</span>
+                            <span>O</span>
+                            <span>S</span>
+                        </h1>
+                        <h4 class="colorido">
+                            <span>J</span>
+                            <span>O</span>
+                            <span>G</span>
+                            <span>A</span>
+                            <span>R</span>
+                            <span>?</span>
+                        </h4>
+                    </div>
+                    <div class="card d-flex flex-column flex-grow-1 my-auto px-5 justify-content-around">
+                        <div class="form-group">
+                            <img src="assets/img/caderno.png" alt="">
+                            <label for="nome" style="color: #22AFFF;">NOME:</label>
+                            <input type="text" name="nome" id="nome" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <img src="assets/img/calculadora.png" alt="">
+                            <label for="idade" style="color: #7FC62B;">IDADE:</label>
+                            <input type="text" name="idade" id="idade" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <img src="assets/img/escola.png" alt="">
+                            <label for="escola" style="color: #F1483C;">ESCOLA:</label>
+                            <input type="text" name="escola" id="escola" class="form-control">
+                        </div>
+                        <button class="btn btn-success botao-submeter">
+                            ENVIAR
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,6 +110,7 @@
 
 <script src="assets/js/index.js"></script>
 <script src="assets/js/parte1.js"></script>
+<script src="assets/js/parte2.js"></script>
 
 </body>
 

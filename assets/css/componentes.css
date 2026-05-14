@@ -33,6 +33,7 @@
 
 .parte {
     position: relative;
+    max-height: 100%;
 }
 
 /*
@@ -40,7 +41,52 @@
  */
 .parte-2 .marrecos {
     height: 100%;
-    position: absolute;
+    width: 150%;
+    object-fit: contain;
     z-index: 0;
+}
 
+.parte-2 .card .form-group {
+    position: relative;
+    display: flex;
+}
+
+.parte-2 .card .form-group label {
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+    left: 44px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.parte-2 .card .form-group img {
+    left: -58px;
+    bottom: -34px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+}
+
+.parte-2 .card .form-group input {
+    border: 3px solid;
+    font-weight: 700;
+    height: 52px;
+    border-radius: 0 999px 999px 0;
+}
+
+.parte-2 .card .form-group input[name="nome"] {
+    border-color: #22AFFF;
+    padding-left: 118px;
+}
+
+.parte-2 .card .form-group input[name="idade"] {
+    border-color: #7FC62B;
+    padding-left: 118px;
+}
+
+.parte-2 .card .form-group input[name="escola"] {
+    border-color: #F1483C;
+    padding-left: 130px;
 }

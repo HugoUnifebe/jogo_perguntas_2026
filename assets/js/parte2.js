@@ -1,12 +1,8 @@
 /** PARTE 1**/
-let btn = $(`.parte-2 .botao-submeter`);
-btn.on(`click`, e => {
-    trocaParte(3);
-});
-btn.on("mousedown", function () {
-    btn.addClass(`clicado`);
-});
-
-btn.on("mouseup mouseleave", function () {
-    btn.removeClass(`clicado`);
-});
+(e => {
+    let btn = $(`.parte-2 .botao-submeter`);
+    btn.on(`click`, e => {
+        playSound('click.mp3', .5);
+        trocaParte(3);
+    });
+})();
