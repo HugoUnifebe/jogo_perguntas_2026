@@ -1,7 +1,7 @@
 let perguntas = [];
 let questoesAcertadas = 0;
 
-fetch('./assets/js/perguntas.json')
+fetch('assets/js/perguntas.json')
     .then(response => response.json())
     .then(data => {
         perguntas = data;
