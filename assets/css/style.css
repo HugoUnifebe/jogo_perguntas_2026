@@ -157,6 +157,14 @@ h1.colorido {
     gap: 1rem;
 }
 
+.card-alternativa .card-img-wrapper .loader {
+    position: absolute;
+    font-size: 50px;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    color: white;
+}
+
 .card-alternativa .btn-volume {
     padding: 0;
     border: none !important;

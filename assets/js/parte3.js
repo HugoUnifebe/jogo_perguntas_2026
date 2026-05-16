@@ -46,7 +46,7 @@ function montarPergunta(i) {
 
     $.each(respostasEmbaralhadas, (index, item) => {
         let btn = $(`.parte-3 .alternativas .card-alternativa-${index + 1}`);
-        btn.find(`img`).attr(`src`, item.imagem);
+        trocarImagemComLoader(btn.find(`img`), item.imagem);
 
 
         btn.find('.btn-volume').off().on('click', function (e) {

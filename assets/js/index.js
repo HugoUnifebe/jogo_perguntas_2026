@@ -88,3 +88,19 @@ function tocarBackground() {
 $(document).one('click touchstart', function () {
     tocarBackground();
 });
+
+function trocarImagemComLoader(imgElement, novaImagem) {
+    const loader = $(imgElement)
+        .siblings('.loader');
+    $(imgElement).hide();
+    loader.show();
+    const preload = new Image();
+    preload.onload = function () {
+        $(imgElement)
+            .attr('src', novaImagem)
+            .fadeIn(150);
+
+        loader.hide();
+    };
+    preload.src = novaImagem;
+}
