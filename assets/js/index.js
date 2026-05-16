@@ -3,13 +3,47 @@ let trocaParte = (n) => {
     $(`.parte.parte-${n}`).show();
 }
 
-function playSound(soundFileName, nivelSom = 1) {
+
+let audiosReproduzindo = {};
+
+function playSound(soundFileName, nivelSom = 1, id = null, onEnd = null) {
+
+    if (id == null) {
+        id = Math.floor(Math.random() * 9000) + 1000;
+    }
+
+    if (audiosReproduzindo[id]) {
+        audiosReproduzindo[id].pause();
+        audiosReproduzindo[id].currentTime = 0;
+    }
+
     const audio = new Audio(`./assets/sound/${soundFileName}`);
+
     if (soundFileName === 'click.mp3') {
         audio.currentTime = .5;
     }
-    audio.volume = nivelSom
+    if(/\/\d+\.mp3$/i.test(soundFileName)){
+        audio.currentTime = .75;
+    }
+
+    audio.volume = nivelSom;
+
+    audiosReproduzindo[id] = audio;
+
     audio.play().catch(e => console.error("Erro ao tocar o som:", e));
+
+    audio.onended = () => {
+        delete audiosReproduzindo[id];
+    };
+
+    audio.onended = () => {
+        delete audiosReproduzindo[id];
+        if (typeof onEnd === 'function') {
+            onEnd();
+        }
+    };
+
+    return audio;
 }
 
 
@@ -42,3 +76,15 @@ function embaralharArray(array) {
     }
     return array;
 }
+function tocarBackground() {
+    playSound(
+        'background.mp3',
+        .015,
+        'bg-music',
+        tocarBackground
+    );
+}
+
+$(document).one('click touchstart', function () {
+    tocarBackground();
+});

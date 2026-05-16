@@ -1,331 +1,331 @@
 [
   {
     "pergunta": "1. Qual é o prato típico de Brusque?",
-    "dub": "assets/sound/perguntas/1/1.mp3",
+    "dub": "perguntas/1/1.mp3",
     "correta": "Marreco",
     "alternativas": [
       {
         "texto": "Cachorro-quente",
         "imagem": "assets/img/perguntas/1/3.png",
-        "dub": "assets/sound/perguntas/1/cachorro.mp3"
+        "dub": "perguntas/1/cachorro.mp3"
       },
       {
         "texto": "Pão de queijo",
         "imagem": "assets/img/perguntas/1/2.png",
-        "dub": "assets/sound/perguntas/1/pao.mp3"
+        "dub": "perguntas/1/pao.mp3"
       },
       {
         "texto": "Marreco",
         "imagem": "assets/img/perguntas/1/1.png",
-        "dub": "assets/sound/perguntas/1/marreco.mp3"
+        "dub": "perguntas/1/marreco.mp3"
       }
     ]
   },
   {
     "pergunta": "2. Qual é a bandeira de Brusque?",
-    "dub": "assets/sound/perguntas/2/2.mp3",
+    "dub": "perguntas/2/2.mp3",
     "correta": "Brusque",
     "alternativas": [
       {
         "texto": "Florianópolis",
         "imagem": "assets/img/perguntas/2/1.png",
-        "dub": "assets/sound/perguntas/2/Florianopolis.mp3"
+        "dub": "perguntas/2/Florianopolis.mp3"
       },
       {
         "texto": "Brusque",
         "imagem": "assets/img/perguntas/2/2.png",
-        "dub": "assets/sound/perguntas/2/Brusque.mp3"
+        "dub": "perguntas/2/Brusque.mp3"
       },
       {
         "texto": "Itajaí",
         "imagem": "assets/img/perguntas/2/3.png",
-        "dub": "assets/sound/perguntas/2/Itajai.mp3"
+        "dub": "perguntas/2/Itajai.mp3"
       }
     ]
   },
   {
     "pergunta": "3. Qual lugar em Brusque podemos ver muitos animais?",
-    "dub": "assets/sound/perguntas/3/3.mp3",
+    "dub": "perguntas/3/3.mp3",
     "correta": "Parque Zoobotânico",
     "alternativas": [
       {
         "texto": "Parque de diversões",
         "imagem": "assets/img/perguntas/3/1.png",
-        "dub": "assets/sound/perguntas/3/parque.mp3"
+        "dub": "perguntas/3/parque.mp3"
       },
       {
         "texto": "Praia",
         "imagem": "assets/img/perguntas/3/3.png",
-        "dub": "assets/sound/perguntas/3/praia.mp3"
+        "dub": "perguntas/3/praia.mp3"
       },
       {
         "texto": "Parque Zoobotânico",
         "imagem": "assets/img/perguntas/3/2.png",
-        "dub": "assets/sound/perguntas/3/zoobotanico.mp3"
+        "dub": "perguntas/3/zoobotanico.mp3"
       }
     ]
   },
   {
     "pergunta": "4. Qual lugar em Brusque tem muitas esculturas?",
-    "dub": "assets/sound/perguntas/4/4.mp3",
+    "dub": "perguntas/4/4.mp3",
     "correta": "Parque das Esculturas",
     "alternativas": [
       {
         "texto": "Biblioteca",
         "imagem": "assets/img/perguntas/4/2.png",
-        "dub": "assets/sound/perguntas/4/biblioteca.mp3"
+        "dub": "perguntas/4/biblioteca.mp3"
       },
       {
         "texto": "Parque aquático",
         "imagem": "assets/img/perguntas/4/1.png",
-        "dub": "assets/sound/perguntas/4/parqueAquatico.mp3"
+        "dub": "perguntas/4/parqueAquatico.mp3"
       },
       {
         "texto": "Parque das Esculturas",
         "imagem": "assets/img/perguntas/4/3.png",
-        "dub": "assets/sound/perguntas/4/parqueEsculturas.mp3"
+        "dub": "perguntas/4/parqueEsculturas.mp3"
       }
     ]
   },
   {
     "pergunta": "5. Qual é o rio que passa por Brusque?",
-    "dub": "assets/sound/perguntas/5/5.mp3",
+    "dub": "perguntas/5/5.mp3",
     "correta": "Rio Itajaí-Mirim",
     "alternativas": [
       {
         "texto": "Cachoeira",
         "imagem": "assets/img/perguntas/5/3.png",
-        "dub": "assets/sound/perguntas/5/cachoeira.mp3"
+        "dub": "perguntas/5/cachoeira.mp3"
       },
       {
         "texto": "Lago",
         "imagem": "assets/img/perguntas/5/2.png",
-        "dub": "assets/sound/perguntas/5/lago.mp3"
+        "dub": "perguntas/5/lago.mp3"
       },
       {
         "texto": "Rio Itajaí-Mirim",
         "imagem": "assets/img/perguntas/5/1.png",
-        "dub": "assets/sound/perguntas/5/rioItajai.mp3"
+        "dub": "perguntas/5/rioItajai.mp3"
       }
     ]
   },
   {
     "pergunta": "6. Qual lugar vemos histórias e objetos antigos de Brusque?",
-    "dub": "assets/sound/perguntas/6/6.mp3",
+    "dub": "perguntas/6/6.mp3",
     "correta": "Museu de Brusque",
     "alternativas": [
       {
         "texto": "Cinema",
         "imagem": "assets/img/perguntas/6/1.png",
-        "dub": "assets/sound/perguntas/6/cinema.mp3"
+        "dub": "perguntas/6/cinema.mp3"
       },
       {
         "texto": "Museu de Brusque",
         "imagem": "assets/img/perguntas/6/3.png",
-        "dub": "assets/sound/perguntas/6/museu.mp3"
+        "dub": "perguntas/6/museu.mp3"
       },
       {
         "texto": "Parquinho",
         "imagem": "assets/img/perguntas/6/2.png",
-        "dub": "assets/sound/perguntas/6/parquinho.mp3"
+        "dub": "perguntas/6/parquinho.mp3"
       }
     ]
   },
   {
     "pergunta": "7. Quem veio morar aqui há muitos anos?",
-    "dub": "assets/sound/perguntas/7/7.mp3",
+    "dub": "perguntas/7/7.mp3",
     "correta": "Imigrantes alemães",
     "alternativas": [
       {
         "texto": "Astronautas",
         "imagem": "assets/img/perguntas/7/1.png",
-        "dub": "assets/sound/perguntas/7/astronautas.mp3"
+        "dub": "perguntas/7/astronautas.mp3"
       },
       {
         "texto": "Imigrantes alemães",
         "imagem": "assets/img/perguntas/7/2.png",
-        "dub": "assets/sound/perguntas/7/imigrantes.mp3"
+        "dub": "perguntas/7/imigrantes.mp3"
       },
       {
         "texto": "Piratas",
         "imagem": "assets/img/perguntas/7/3.png",
-        "dub": "assets/sound/perguntas/7/piratas.mp3"
+        "dub": "perguntas/7/piratas.mp3"
       }
     ]
   },
   {
     "pergunta": "8. Em Brusque existem muitas fábricas de que?",
-    "dub": "assets/sound/perguntas/8/8.mp3",
+    "dub": "perguntas/8/8.mp3",
     "correta": "Roupas/tecidos",
     "alternativas": [
       {
         "texto": "Alimentos",
         "imagem": "assets/img/perguntas/8/1.png",
-        "dub": "assets/sound/perguntas/8/alimentos.mp3"
+        "dub": "perguntas/8/alimentos.mp3"
       },
       {
         "texto": "Remédios",
         "imagem": "assets/img/perguntas/8/3.png",
-        "dub": "assets/sound/perguntas/8/remedios.mp3"
+        "dub": "perguntas/8/remedios.mp3"
       },
       {
         "texto": "Roupas/tecidos",
         "imagem": "assets/img/perguntas/8/2.png",
-        "dub": "assets/sound/perguntas/8/roupasTecidos.mp3"
+        "dub": "perguntas/8/roupasTecidos.mp3"
       }
     ]
   },
   {
     "pergunta": "9. O que vemos nas ruas de Brusque?",
-    "dub": "assets/sound/perguntas/9/9.mp3",
+    "dub": "perguntas/9/9.mp3",
     "correta": "Carros e ônibus",
     "alternativas": [
       {
         "texto": "Carros e ônibus",
         "imagem": "assets/img/perguntas/9/1.png",
-        "dub": "assets/sound/perguntas/9/carrosOnibus.mp3"
+        "dub": "perguntas/9/carrosOnibus.mp3"
       },
       {
         "texto": "Foguete",
         "imagem": "assets/img/perguntas/9/2.png",
-        "dub": "assets/sound/perguntas/9/foguete.mp3"
+        "dub": "perguntas/9/foguete.mp3"
       },
       {
         "texto": "Submarino",
         "imagem": "assets/img/perguntas/9/3.png",
-        "dub": "assets/sound/perguntas/9/submarino.mp3"
+        "dub": "perguntas/9/submarino.mp3"
       }
     ]
   },
   {
     "pergunta": "10. Qual é a festa famosa da cidade?",
-    "dub": "assets/sound/perguntas/10/10.mp3",
+    "dub": "perguntas/10/10.mp3",
     "correta": "Fenarreco",
     "alternativas": [
       {
         "texto": "Festa da cebola",
         "imagem": "assets/img/perguntas/10/3.png",
-        "dub": "assets/sound/perguntas/10/cebola.mp3"
+        "dub": "perguntas/10/cebola.mp3"
       },
       {
         "texto": "Fenarreco",
         "imagem": "assets/img/perguntas/10/1.png",
-        "dub": "assets/sound/perguntas/10/fenarreco.mp3"
+        "dub": "perguntas/10/fenarreco.mp3"
       },
       {
         "texto": "Marejada",
         "imagem": "assets/img/perguntas/10/2.png",
-        "dub": "assets/sound/perguntas/10/marejada.mp3"
+        "dub": "perguntas/10/marejada.mp3"
       }
     ]
   },
   {
     "pergunta": "11. Qual o nome do lugar em Brusque onde podemos ver muitos livros e aprender coisas novas?",
-    "dub": "assets/sound/perguntas/11/11.mp3",
+    "dub": "perguntas/11/11.mp3",
     "correta": "Biblioteca Pública de Brusque",
     "alternativas": [
       {
         "texto": "Biblioteca Pública de Brusque",
         "imagem": "assets/img/perguntas/11/3.png",
-        "dub": "assets/sound/perguntas/11/biblioteca.mp3"
+        "dub": "perguntas/11/biblioteca.mp3"
       },
       {
         "texto": "Farmácia",
         "imagem": "assets/img/perguntas/11/2.png",
-        "dub": "assets/sound/perguntas/11/farmacia.mp3"
+        "dub": "perguntas/11/farmacia.mp3"
       },
       {
         "texto": "Supermercado",
         "imagem": "assets/img/perguntas/11/1.png",
-        "dub": "assets/sound/perguntas/11/supermercado.mp3"
+        "dub": "perguntas/11/supermercado.mp3"
       }
     ]
   },
   {
     "pergunta": "12. Qual animal é marronzinho e podemos ver na beira rio?",
-    "dub": "assets/sound/perguntas/12/12.mp3",
+    "dub": "perguntas/12/12.mp3",
     "correta": "Capivara",
     "alternativas": [
       {
         "texto": "Capivara",
         "imagem": "assets/img/perguntas/12/2.png",
-        "dub": "assets/sound/perguntas/12/capivara.mp3"
+        "dub": "perguntas/12/capivara.mp3"
       },
       {
         "texto": "Macaco",
         "imagem": "assets/img/perguntas/12/3.png",
-        "dub": "assets/sound/perguntas/12/macaco.mp3"
+        "dub": "perguntas/12/macaco.mp3"
       },
       {
         "texto": "Urso",
         "imagem": "assets/img/perguntas/12/1.png",
-        "dub": "assets/sound/perguntas/12/urso.mp3"
+        "dub": "perguntas/12/urso.mp3"
       }
     ]
   },
   {
     "pergunta": "13. Qual lugar em Brusque as pessoas vão para rezar e agradecer?",
-    "dub": "assets/sound/perguntas/13/13.mp3",
+    "dub": "perguntas/13/13.mp3",
     "correta": "Igreja Azambuja",
     "alternativas": [
       {
         "texto": "Casa de brinquedo",
         "imagem": "assets/img/perguntas/13/2.png",
-        "dub": "assets/sound/perguntas/13/casaBrinquedo.mp3"
+        "dub": "perguntas/13/casaBrinquedo.mp3"
       },
       {
         "texto": "Castelo",
         "imagem": "assets/img/perguntas/13/1.png",
-        "dub": "assets/sound/perguntas/13/castelo.mp3"
+        "dub": "perguntas/13/castelo.mp3"
       },
       {
         "texto": "Igreja Azambuja",
         "imagem": "assets/img/perguntas/13/3.png",
-        "dub": "assets/sound/perguntas/13/igreja.mp3"
+        "dub": "perguntas/13/igreja.mp3"
       }
     ]
   },
   {
     "pergunta": "Qual lugar em Brusque onde as crianças podem brincar e se divertir ao ar livre?",
-    "dub": "assets/sound/perguntas/14/14.mp3",
+    "dub": "perguntas/14/14.mp3",
     "correta": "Parque",
     "alternativas": [
       {
         "texto": "Cozinha",
         "imagem": "assets/img/perguntas/14/1.png",
-        "dub": "assets/sound/perguntas/14/cozinha.mp3"
+        "dub": "perguntas/14/cozinha.mp3"
       },
       {
         "texto": "Escritório",
         "imagem": "assets/img/perguntas/14/2.png",
-        "dub": "assets/sound/perguntas/14/escritorio.mp3"
+        "dub": "perguntas/14/escritorio.mp3"
       },
       {
         "texto": "Parque",
         "imagem": "assets/img/perguntas/14/3.png",
-        "dub": "assets/sound/perguntas/14/parque.mp3"
+        "dub": "perguntas/14/parque.mp3"
       }
     ]
   },
   {
     "pergunta": "Nas festas típicas as pessoas costumam usar qual tipo de roupa?",
-    "dub": "assets/sound/perguntas/15/15.mp3",
+    "dub": "perguntas/15/15.mp3",
     "correta": "Roupas tradicionais alemãs",
     "alternativas": [
       {
         "texto": "Roupas tradicionais alemãs",
         "imagem": "assets/img/perguntas/15/1.png",
-        "dub": "assets/sound/perguntas/15/roupaAlemas.mp3"
+        "dub": "perguntas/15/roupaAlemas.mp3"
       },
       {
         "texto": "Roupa de astronauta",
         "imagem": "assets/img/perguntas/15/2.png",
-        "dub": "assets/sound/perguntas/15/roupaAstro.mp3"
+        "dub": "perguntas/15/roupaAstro.mp3"
       },
       {
         "texto": "Roupa de mergulho",
         "imagem": "assets/img/perguntas/15/3.png",
-        "dub": "assets/sound/perguntas/15/roupaMergulho.mp3"
+        "dub": "perguntas/15/roupaMergulho.mp3"
       }
     ]
   }
