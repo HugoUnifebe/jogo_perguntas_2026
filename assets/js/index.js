@@ -6,7 +6,7 @@ let trocaParte = (n) => {
 
 let audiosReproduzindo = {};
 
-function playSound(soundFileName, nivelSom = 1, id = null) {
+function playSound(soundFileName, nivelSom = 1, id = null, onEnd = null) {
 
     if (id == null) {
         id = Math.floor(Math.random() * 9000) + 1000;
@@ -22,6 +22,9 @@ function playSound(soundFileName, nivelSom = 1, id = null) {
     if (soundFileName === 'click.mp3') {
         audio.currentTime = .5;
     }
+    if(/\/\d+\.mp3$/i.test(soundFileName)){
+        audio.currentTime = .75;
+    }
 
     audio.volume = nivelSom;
 
@@ -32,6 +35,15 @@ function playSound(soundFileName, nivelSom = 1, id = null) {
     audio.onended = () => {
         delete audiosReproduzindo[id];
     };
+
+    audio.onended = () => {
+        delete audiosReproduzindo[id];
+        if (typeof onEnd === 'function') {
+            onEnd();
+        }
+    };
+
+    return audio;
 }
 
 
@@ -64,3 +76,15 @@ function embaralharArray(array) {
     }
     return array;
 }
+function tocarBackground() {
+    playSound(
+        'background.mp3',
+        .015,
+        'bg-music',
+        tocarBackground
+    );
+}
+
+$(document).one('click touchstart', function () {
+    tocarBackground();
+});
