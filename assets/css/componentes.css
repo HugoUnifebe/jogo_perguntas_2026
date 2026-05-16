@@ -170,8 +170,8 @@
 }
 
 .parte-4 .card-imagem img {
-    height: 60vw;
-    max-height: 550px;
+    height: 40vh;
+    max-height: 400px;
 }
 
 @media (max-width: 1880px) {
@@ -195,7 +195,7 @@
 
 @media (max-width: 1400px) {
     .card-alternativa {
-        width: calc(43% - 1rem)
+        width: calc(35% - 1rem);
     }
 }
 
