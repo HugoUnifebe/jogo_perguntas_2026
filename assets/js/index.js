@@ -79,7 +79,7 @@ function embaralharArray(array) {
 function tocarBackground() {
     playSound(
         'background.mp3',
-        .015,
+        .01,
         'bg-music',
         tocarBackground
     );
